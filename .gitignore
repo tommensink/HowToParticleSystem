@@ -1,4 +1,10 @@
 # =============== #
+# My App folder #
+# =============== #
+# TomM
+/App/
+
+# =============== #
 # Unity generated #
 # =============== #
 /[Ll]ibrary/
@@ -77,7 +83,8 @@ artifacts/
 *_p.c
 *_i.h
 *.ilk
-*.meta
+# TomM - Do not ignore the meta files!!!!! They contain superimortant GUID
+# *.meta
 *.obj
 *.pch
 *.pdb
