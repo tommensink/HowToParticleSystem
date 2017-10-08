@@ -60110,16 +60110,16 @@ MonoBehaviour:
   OnSelectEvents:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1994004600}
-        m_MethodName: Explode
-        m_Mode: 1
+      - m_Target: {fileID: 1253174321}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1662996572}
         m_MethodName: SetActive
@@ -60142,6 +60142,17 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1685649018}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
@@ -63836,8 +63847,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076b903f7004b9043aa48c76cb51cdb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObjectToDestroyAtExplosion: {fileID: 1685649018}
-  ExplosionObject: {fileID: 1253174321}
 --- !u!1 &2059558213
 GameObject:
   m_ObjectHideFlags: 0
