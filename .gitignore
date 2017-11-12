@@ -50,8 +50,8 @@ sysinfo.txt
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
-x64/
-x86/
+#x64/
+#x86/
 bld/
 [Bb]in/
 [Oo]bj/
@@ -85,12 +85,12 @@ artifacts/
 *.ilk
 # TomM - Do not ignore the meta files!!!!! They contain superimortant GUID
 # *.meta
-*.obj
+# *.obj
 *.pch
 *.pdb
 *.pgc
 *.pgd
-*.rsp
+# *.rsp
 *.sbr
 *.tlb
 *.tli
@@ -224,7 +224,7 @@ ClientBin/
 *~
 *.dbmdl
 *.dbproj.schemaview
-*.pfx
+#*.pfx
 *.publishsettings
 node_modules/
 orleans.codegen.cs
