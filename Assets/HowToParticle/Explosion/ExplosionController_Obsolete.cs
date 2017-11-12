@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ExplosionController : MonoBehaviour {
+public class ExplosionController_Obsolete : MonoBehaviour {
     [Tooltip("Object to destroy at explosion")]
     public GameObject ObjectToDestroyAtExplosion;
 
